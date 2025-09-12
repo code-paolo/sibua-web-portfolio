@@ -41,7 +41,7 @@ const ContactMeSection = () => {
           data-aos-delay="600"
         >
           <h2 className=" text-justify">
-            If you’re hiring or have a role where my skills can add value, feel
+            If you're hiring or have a role where my skills can add value, feel
             free to reach out—I can help build and deliver efficient, modern web
             solutions.
           </h2>
