@@ -70,7 +70,7 @@ const ContactMeSection = () => {
             <li
               className="flex gap-x-5"
               data-aos="fade-left"
-              data-aos-delay="1000"
+              data-aos-delay="900"
             >
               <Link href="mailto:paologsibs@gmail.com" target="_blank">
                 <Button
@@ -85,7 +85,7 @@ const ContactMeSection = () => {
             <div
               className="font-bold flex gap-x-5"
               data-aos="fade-up"
-              data-aos-delay="1200"
+              data-aos-delay="950"
             >
               <h2>You are free to view my Github</h2>{" "}
               <ThumbsUpIcon color="green" />
@@ -93,7 +93,7 @@ const ContactMeSection = () => {
             <li
               className="flex gap-x-5"
               data-aos="fade-right"
-              data-aos-delay="1400"
+              data-aos-delay="1000"
             >
               <Link href="https://github.com/code-paolo/" target="_blank">
                 <Button
