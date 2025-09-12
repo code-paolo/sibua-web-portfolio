@@ -21,7 +21,7 @@ const ContactMeSection = () => {
           Contact me
         </h1>
         <p
-          className="text-muted-foreground mt-15 max-w-prose leading-8 text-justify"
+          className="text-muted-foreground mt-15 max-w-prose leading-8 font-medium text-justify"
           data-aos="fade-left"
           data-aos-delay="400"
         >
@@ -32,8 +32,7 @@ const ContactMeSection = () => {
             </span>{" "}
           </strong>
           and can quickly adapt to different projects, technologies, and team
-          dynamics. Feel free to reach out if you’re hiring or have a position
-          where my skills can add value.
+          dynamics.
         </p>
 
         <div
@@ -42,8 +41,9 @@ const ContactMeSection = () => {
           data-aos-delay="600"
         >
           <h2 className=" text-justify">
-            Feel free to reach out if you’re looking for someone to build and
-            deliver efficient, modern web solutions.
+            If you’re hiring or have a role where my skills can add value, feel
+            free to reach out—I can help build and deliver efficient, modern web
+            solutions.
           </h2>
           <ArrowBigDown fill="gold" size={50} />
         </div>
