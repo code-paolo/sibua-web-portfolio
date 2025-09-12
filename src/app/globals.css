@@ -40,6 +40,9 @@
 }
 
 @theme inline {
+  --breakpoint-sm: 727px;
+  --breakpoint-semi-lg: 800px;
+  --breakpoint-xl: 1150px;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-primary: var(--primary);

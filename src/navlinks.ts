@@ -13,12 +13,8 @@ export const links = [
   },
 
   {
-    title: "Experience",
-    href: "#experience",
-  },
-  {
-    title: "Education",
-    href: "#education",
+    title: "Skills",
+    href: "#skills",
   },
   {
     title: "Contact me",

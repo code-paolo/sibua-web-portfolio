@@ -7,7 +7,7 @@ import { links } from "@/navlinks";
 import DisplayNavLinks from "../DisplayNavLinks";
 const Navbar = () => {
   return (
-    <nav className="fixed top-0 inset-0 w-screen bg-background/95 backdrop:blur-4xl h-24">
+    <nav className="fixed top-0 inset-0 w-screen bg-background/50 backdrop-blur-3xl h-24 z-50">
       <div className="flex justify-between lg:justify-center items-center px-10 lg:px-0">
         <Link href={links[0].href}>
           <Image

@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
-import { Open_Sans } from "next/font/google";
+import { IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
 import AOSProvider from "@/context/AOS-content";
 import Navbar from "@/components/Navbar/Navbar";
+import LenisContext from "@/context/LenisContext";
 
-const open_sans = Open_Sans({
-  variable: "--font-open_sans",
-  weight: ["300", "400", "500", "600", "700", "800"],
+const ibm_mono = IBM_Plex_Mono({
+  variable: "--font-IBM_PIBM_Plex_Mono",
+  weight: ["300", "400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {
@@ -22,12 +23,14 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body
-        className={`${open_sans.variable} ${open_sans.className} container mx-auto max-w-[1280px]  `}
+        className={`${ibm_mono.variable} ${ibm_mono.className} container mx-auto max-w-[1480px]`}
       >
-        <AOSProvider>
-          <Navbar />
-          {children}
-        </AOSProvider>
+        <LenisContext>
+          <AOSProvider>
+            <Navbar />
+            {children}
+          </AOSProvider>
+        </LenisContext>
       </body>
     </html>
   );
