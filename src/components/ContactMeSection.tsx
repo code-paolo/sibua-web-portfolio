@@ -21,21 +21,21 @@ const ContactMeSection = () => {
           Contact me
         </h1>
         <p
-          className="text-muted-foreground mt-15 max-w-prose leading-8 text-justify "
+          className="text-muted-foreground mt-15 max-w-prose leading-8 text-justify"
           data-aos="fade-left"
           data-aos-delay="400"
         >
           <strong>
-            I’m actively seeking opportunities where I can contribute as a
-            Full-Stack Developer, and I’m open to full-time roles or
-            collaborations.
-          </strong>{" "}
-          where I can contribute as a&nbsp;
-          <span className="underline underline-offset-4">
-            Full-Stack Developer
-          </span>
-          . Get in touch if you’re hiring or have a role that fits my skills.
+            I’m actively seeking a full-time opportunity as a{" "}
+            <span className="underline underline-offset-6 decoration-[#0077B5]">
+              Full-Stack Developer
+            </span>{" "}
+          </strong>
+          and can quickly adapt to different projects, technologies, and team
+          dynamics. Feel free to reach out if you’re hiring or have a position
+          where my skills can add value.
         </p>
+
         <div
           className="mt-5 flex lg:flex-row flex-col gap-x-10 max-w-prose items-center"
           data-aos="fade-left"
