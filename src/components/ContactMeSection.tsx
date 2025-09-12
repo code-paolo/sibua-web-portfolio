@@ -43,7 +43,7 @@ const ContactMeSection = () => {
         >
           <h2 className=" text-justify">
             Feel free to reach out if you’re looking for someone to build and
-            deliver efficient, modern web solutions
+            deliver efficient, modern web solutions.
           </h2>
           <ArrowBigDown fill="gold" size={50} />
         </div>
