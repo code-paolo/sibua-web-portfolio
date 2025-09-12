@@ -31,7 +31,7 @@ const MobileNavbar = ({ children }: MobileNavbar) => {
           onClick={(e) => {
             handleDrawer(e);
           }}
-          className="flex flex-col items-center gap-y-10 m-2 text-sm lg:text-base font-medium"
+          className="flex flex-col items-center mt-15 gap-y-10 m-2 text-sm lg:text-base font-medium"
         >
           <DisplayNavLinks />
         </ul>
