@@ -4,6 +4,7 @@ import "./globals.css";
 import AOSProvider from "@/context/AOS-content";
 import Navbar from "@/components/Navbar/Navbar";
 import LenisContext from "@/context/LenisContext";
+import Footer from "@/components/Navbar/Footer";
 
 const ibm_mono = IBM_Plex_Mono({
   variable: "--font-IBM_PIBM_Plex_Mono",
@@ -22,13 +23,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body
-        className={`${ibm_mono.variable} ${ibm_mono.className} container mx-auto max-w-[1480px]`}
-      >
+      <body className={`${ibm_mono.variable} ${ibm_mono.className} `}>
         <LenisContext>
           <AOSProvider>
             <Navbar />
-            {children}
+            <div className="container mx-auto max-w-[1480px] overflow-x-hidden">
+              {children}
+            </div>
+            <Footer />
           </AOSProvider>
         </LenisContext>
       </body>

@@ -6,7 +6,7 @@ import { Badge } from "./ui/badge";
 import Image from "next/image";
 const AboutMe = () => {
   return (
-    <div className="flex flex-col">
+    <div>
       <div
         className="flex flex-col justify-center items-center"
         data-aos="fade-up"
@@ -15,7 +15,7 @@ const AboutMe = () => {
         <h1 className="text-4xl font-bold">About Me</h1>
         <span className="text-muted-foreground mt-2">Get to Know Me</span>
       </div>
-      <div className="flex lg:flex-row flex-col gap-y-10 gap-x-32">
+      <div className="flex lg:flex-row flex-col gap-y-10 lg:gap-x-32 ">
         <Image
           data-aos="fade-left"
           data-aos-delay="200"
@@ -23,7 +23,7 @@ const AboutMe = () => {
           alt="Graduation Picture"
           height={500}
           width={500}
-          className="h-[600px] w-[450px] rounded-md mt-16 shadow-[13px_11px_9px_7px_rgba(0,_0,_0,_0.1)]"
+          className="h-[600px] w-[450px] rounded-md mt-16 shadow-[13px_11px_9px_7px_rgba(0,_0,_0,_0.1)] "
         />
         <div data-aos="fade-right" data-aos-delay="400">
           <p className="max-w-prose text-muted-foreground text-justify mt-15 tracking-wider text-sm/9 lg:text-lg/9 ">
