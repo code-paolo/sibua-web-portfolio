@@ -30,7 +30,7 @@ const HeroSection = () => {
           data-aos="fade-right"
           data-aos-delay="800"
         >
-          Paolo G. Sibua.
+          Paolo Sibua.
         </h1>
         <div data-aos="fade-right" data-aos-delay="1100">
           <TypingAnimation

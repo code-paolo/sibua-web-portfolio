@@ -21,6 +21,7 @@ const ProjectCard = ({
     <Card className=" h-[500px] w-[350px] p-0 hover:shadow-2xl group ">
       <div className="overflow-hidden">
         <Image
+          priority
           draggable="false"
           height={500}
           width={500}
