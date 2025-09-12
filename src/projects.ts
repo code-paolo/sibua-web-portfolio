@@ -1,14 +1,14 @@
 export const projects = [
   {
     project_name: "TB PillPal",
-    project_image: "/tbpillpal-preview.png",
+    project_image: "/tbpillpal-app.png",
     project_description:
       "Built a healthcare app for tuberculosis patients with real-time adherence tracking, gamification, AI-powered test result summaries, and instant healthcare worker notifications.",
     github: "https://github.com/code-paolo/tbpillpal",
   },
   {
     project_name: "Web Portfolio",
-    project_image: "/portfolio-preview.png",
+    project_image: "/webportfolio-app.png",
     project_description:
       "A dynamic web portfolio that brings my projects to life—highlighting fullstack development skills, clean and responsive interfaces, and innovative solutions built with modern web technologies.",
     github: "https://github.com/code-paolo/sibua-web-portfolio",

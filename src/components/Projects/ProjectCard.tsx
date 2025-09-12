@@ -22,8 +22,8 @@ const ProjectCard = ({
       <div className="overflow-hidden">
         <Image
           draggable="false"
-          height={700}
-          width={600}
+          height={500}
+          width={500}
           alt={`${project_name} image`}
           src={project_image}
           className="h-[250px] object-cover group-hover:scale-110  transition-transform ease-in-out rounded-t-md"
