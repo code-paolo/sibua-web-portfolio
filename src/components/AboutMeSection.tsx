@@ -4,6 +4,7 @@ import { Button } from "./ui/button";
 import { Download, ScrollText } from "lucide-react";
 import { Badge } from "./ui/badge";
 import Image from "next/image";
+
 const AboutMe = () => {
   return (
     <div>

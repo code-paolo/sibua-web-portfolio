@@ -1,22 +1,6 @@
 import React from "react";
 import { TypingAnimation } from "./magicui/typing-animation";
 import Image from "next/image";
-import { WarpBackground } from "./magicui/warp-background";
-import { TypewriterEffect } from "./ui/typewriter-effect";
-
-const texts = [
-  {
-    text: "Full",
-  },
-
-  {
-    text: "Full",
-  },
-
-  {
-    text: "Full",
-  },
-];
 
 const HeroSection = () => {
   return (
