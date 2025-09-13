@@ -40,7 +40,7 @@ const AboutMe = () => {
             </Badge>
             . Today, I am a&nbsp;
             <span className=" underline underline-offset-4">
-              Full-Stack Developer
+              Full Stack Developer
             </span>
             &nbsp; with hands-on experience in building responsive and efficient
             web applications. I continue to learn and experiment with modern

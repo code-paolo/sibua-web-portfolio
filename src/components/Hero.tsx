@@ -37,7 +37,7 @@ const HeroSection = () => {
             className=" text-lg lg:text-xl text-muted-foreground font-medium"
             as={"h2"}
           >
-            Fullstack Developer
+            Full Stack Developer
           </TypingAnimation>
         </div>
         <p

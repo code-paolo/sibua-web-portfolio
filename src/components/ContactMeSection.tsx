@@ -28,7 +28,7 @@ const ContactMeSection = () => {
           <strong>
             I’m actively seeking a full-time opportunity as a{" "}
             <span className="underline underline-offset-6 decoration-[#0077B5]">
-              Full-Stack Developer
+              Full Stack Developer
             </span>{" "}
           </strong>
           and can quickly adapt to different projects, technologies, and team
